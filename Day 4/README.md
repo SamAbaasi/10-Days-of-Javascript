@@ -22,3 +22,14 @@ function getCount(objects) {
     return count
 }
 ```
+## Classes
+```javascript
+class Polygon {
+    constructor(arr) {
+    this.arr = arr;
+  }
+  perimeter() {
+      return this.arr.reduce((prev, curr)=>  prev + curr, 0)
+  }
+}
+```
