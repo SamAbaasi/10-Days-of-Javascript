@@ -10,3 +10,15 @@ function Rectangle(a, b) {
     return object
 }
 ```
+## Count Objects
+```javascript
+function getCount(objects) {
+    let count = 0
+    for(const obj of objects){
+        if(obj.x == obj.y) {
+            count++
+        }
+    }
+    return count
+}
+```
