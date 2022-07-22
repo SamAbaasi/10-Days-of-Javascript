@@ -7,3 +7,16 @@ function getSecondLargest(nums) {
     return uniqueNums[uniqueNums.length - 2]
 }
 ```
+## Try, Catch, and Finally
+```javascript
+function reverseString(s) {
+    let reversedStr = s
+    try {
+        reversedStr = s.split("").reverse().join("")
+    } catch(err) {
+        console.log(err.message)
+    } finally {
+        console.log(reversedStr)
+    }
+}
+```
