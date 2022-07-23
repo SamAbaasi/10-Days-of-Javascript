@@ -27,3 +27,9 @@ function sides(literals, ...expressions) {
     return [s2, s1]
 }
 ```
+## Arrow Functions
+```javascript
+function modifyArray(nums) {
+    return nums.map(num => num%2 === 0 ? num * 2 : num * 3)
+}
+```
