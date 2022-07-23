@@ -17,3 +17,13 @@ class Square extends Rectangle {
     }
 }
 ```
+## Template Literals
+```javascript
+function sides(literals, ...expressions) {
+    const [A, P] = expressions
+    const root = Math.sqrt((P*P)-(16*A))
+    const s1 = (P + root)/4;
+    const s2 = (P - root)/4;   
+    return [s2, s1]
+}
+```
