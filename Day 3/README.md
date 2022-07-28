@@ -1,3 +1,4 @@
+# Day 3
 ## Arrays
 ```javascript
 function getSecondLargest(nums) {

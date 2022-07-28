@@ -1,3 +1,4 @@
+# Day 4
 ## Create a Rectangle Object
 ```javascript
 function Rectangle(a, b) {

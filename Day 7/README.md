@@ -1,3 +1,4 @@
+# Day 7
 ## Regular Expressions I
 ```javascript
 function regexVar() {

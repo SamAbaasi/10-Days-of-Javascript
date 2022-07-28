@@ -1,3 +1,4 @@
+# Day 6
 ## Bitwise Operators
 ```javascript
 function getMaxLessThanK(n,k) {
@@ -13,7 +14,7 @@ function getMaxLessThanK(n,k) {
     return(max);
 }
 ```
-##
+## JavaScript Dates
 ```javascript
 // The days of the week are: "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 function getDayName(dateString) {
