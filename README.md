@@ -1,4 +1,4 @@
-# 10-days-of-Javascript
+# 10 Days of Javascript
 ## Day 1
 ### Arithmetic Operators
 ```javascript
